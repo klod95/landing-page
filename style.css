@@ -1,0 +1,124 @@
+
+header, footer {
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+}
+header {
+    padding: 20px 80px 100px 100px;
+}
+nav {
+    display: flex;
+    gap: 17px;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+}
+nav > img {
+    width: 70px;
+    height: auto;
+    margin-right: auto; 
+    border-radius: 30px;
+     
+}
+header div > img{
+    width: 450px; height: 150px; object-fit: cover;
+    margin-left: 25px;
+}
+header > div {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+header h1 { 
+    font-size: 48px;
+    font-weight: bolder;
+}
+header p { 
+    font-size: 18px;
+    color: #e5e7eb;
+}
+header button {
+    background-color: #3882f2;
+    color: white;
+    padding: 6px 23px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+button:hover {
+    cursor: pointer;
+    
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.information > p {
+ font-size: 36px;
+ font-weight: bolder;
+ color: #1f2937;
+ text-align: center;
+}
+.information div > p {
+    font-size: 14px;  
+}
+
+.sub-pics {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 40px;
+    padding-left: 40px;   
+}
+.sub-pics div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+.sub-pics div img {
+    border-radius: 25px;
+}
+.quote {
+    background-color: #e5e7eb;
+    text-align: right;
+    font-weight: bold;
+    padding: 30px 70px 30px 70px;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.quote p:first-child {
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.sing-up {
+    background-color: #3882f2;
+    display: flex;
+    margin: 70px;
+    border-radius: 10px;
+    gap: 30px;
+    justify-content: space-between;
+    color: #e5e7eb;
+}
+.sing-up div {
+    padding: 20px 30px 20px 70px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.sing-up div p:first-child {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.sing-up div p {
+    margin: 0px;
+}
+
+
+
