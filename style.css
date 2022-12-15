@@ -1,4 +1,6 @@
-
+body { 
+    margin: 0px;
+}
 header, footer {
     background-color: #1f2937;
     color: white;
@@ -22,9 +24,10 @@ nav > img {
      
 }
 header div > img{
-    width: 450px; height: 150px; object-fit: cover;
-    margin-left: 25px;
+    width: 450px; height: 200px; object-fit: cover;
+    margin-left: 35px;
 }
+
 header > div {
     display: flex;
     margin-top: 70px;
@@ -76,9 +79,16 @@ a {
     flex-direction: column;
     width: 200px;
     height: 200px;
+    text-align: center;
 }
 .sub-pics div img {
     border-radius: 25px;
+    opacity: 0.5;
+    width: 200px;
+   
+}
+.sub-pics div img:hover {
+    opacity: 1;
 }
 .quote {
     background-color: #e5e7eb;
@@ -118,6 +128,20 @@ a {
 }
 .sing-up div p {
     margin: 0px;
+}
+.sing-up button {
+    margin: 20px 70px 20px 30px;
+    border-radius: 7px;
+    background-color: #3882f2;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+    border-color: white;
+}
+footer {
+    padding: 15px;
+    text-align: center;
 }
 
 
